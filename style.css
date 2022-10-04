@@ -179,16 +179,8 @@ p{
     height: 4px;
     background-color: rgb(92, 53, 53);
     margin-bottom: auto;
+    margin-top: 200px;
     
-}
-footer{
-    background-color: rgb(253, 234, 168);
-    margin: 0;
-    padding: 0 20px;
-    display: flex;
-    flex-direction: row;
-    height: auto;
-    align-items: center;
 }
 #Fale{
     text-align: center;
@@ -274,4 +266,21 @@ footer{
 .botaocompra3{
     text-align: center;
     
+}
+.listaitens{
+    align-items: center;
+}
+footer{
+    background-color: rgb(253, 234, 168);
+    margin: 0;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    align-items: center;
+    
+}
+.listacopo1{
+    justify-items: center;
+    display: grid;
 }
