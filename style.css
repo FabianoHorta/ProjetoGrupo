@@ -50,7 +50,14 @@ li{
     color:black;
     background-color: rgb(253, 234, 168);
     font-style: italic;
+    margin-right: 100px;
 }
+
+#bolo{
+    width: 365px;
+    height: 365px;
+}
+
 #log-center{
     background-image: url(./pngwing.com.png);
     background-size: cover;
@@ -179,16 +186,8 @@ p{
     height: 4px;
     background-color: rgb(92, 53, 53);
     margin-bottom: auto;
+    margin-top: 200px;
     
-}
-footer{
-    background-color: rgb(253, 234, 168);
-    margin: 0;
-    padding: 0 20px;
-    display: flex;
-    flex-direction: row;
-    height: auto;
-    align-items: center;
 }
 #Fale{
     text-align: center;
@@ -239,6 +238,7 @@ footer{
     height: 210px;
     width: 210px;
     margin-top: 100px;
+    margin-left: 25px;
 }
 #buy{
     margin-left: 15px;
@@ -275,3 +275,35 @@ footer{
     text-align: center;
     
 }
+.listaitens{
+    align-items: center;
+}
+footer{
+    background-color: rgb(253, 234, 168);
+    margin: 0;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    align-items: center;
+    
+}
+.listacopo1{
+    justify-items: center;
+    display: grid;
+}
+
+#day{
+    height: 320px ;
+    width: 320px ;
+    border-radius: 110px; 
+    margin-left: 38% ;
+    margin-top: 50px ;
+    
+}
+
+#t2{
+    text-align: left;
+    margin-left: 35px;
+}
+
